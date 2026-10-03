@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Fadal Razin | IT Infrastructure & Support Professional",
+    "description": "IT Infrastructure & Support professional in Dammam, Saudi Arabia — Windows Server, Active Directory, Microsoft 365, networking, and hospitality technology.",
+    "language": "en",
+    "themeColor": "#ea580c",
+    "ogImage": "/og-image.jpg",
+    "keywords": "IT Support, IT Infrastructure, Network Administrator, Windows Server, Microsoft 365, Active Directory, Microsoft Entra ID, Systems Administration, Hospitality Technology, IT Operations, Dammam Saudi Arabia",
+    "author": "Fadal Razin",
+    "robots": "index, follow",
+    "ogSiteName": "Fadal Razin | IT Infrastructure & Support Professional",
+    "locale": "en_US",
+    "favicon": "./favicon.svg"
+  },
+  "structuredData": {
+    "enabled": true,
+    "employer": {
+      "name": "First Grand Hotel",
+      "type": "Organization"
+    },
+    "address": {
+      "locality": "Dammam",
+      "country": "SA"
+    },
+    "knowsAbout": [
+      "IT Support",
+      "IT Infrastructure",
+      "Network Administration",
+      "Windows Server",
+      "Microsoft 365",
+      "Active Directory",
+      "Microsoft Entra ID",
+      "Network Troubleshooting",
+      "Hospitality Technology",
+      "Systems Administration",
+      "IT Operations"
+    ]
+  },
+  "branding": {
+    "name": "Fadal Razin",
+    "logo": null,
+    "showName": true
+  },
+  "navigation": {
+    "links": [
+      {
+        "href": "#hero",
+        "label": "About",
+        "external": false
+      },
+      {
+        "href": "#impact",
+        "label": "Impact",
+        "external": false
+      },
+      {
+        "href": "#experience",
+        "label": "Experience",
+        "external": false
+      },
+      {
+        "href": "#achievements",
+        "label": "Achievements",
+        "external": false
+      },
+      {
+        "href": "#skills",
+        "label": "Skills",
+        "external": false
+      },
+      {
+        "href": "#projects",
+        "label": "Projects",
+        "external": false
+      },
+      {
+        "href": "#contact",
+        "label": "Contact",
+        "external": false
+      }
+    ],
+    "cta": {
+      "text": "Get in Touch",
+      "href": "#contact"
+    }
+  },
+  "social": [
+    {
+      "platform": "linkedin",
+      "url": "https://linkedin.com/in/fadal-razin-25a9ab1b0",
+      "label": "LinkedIn"
+    },
+    {
+      "platform": "email",
+      "value": "fadalrazinbuzz@gmail.com",
+      "label": "Email"
+    }
+  ],
+  "analytics": {
+    "vercel": false,
+    "googleAnalytics": null,
+    "plausible": null
+  },
+  "features": {
+    "darkMode": true,
+    "designSystemSwitcher": true,
+    "smoothScroll": true,
+    "reduceMotion": "respect-system",
+    "layout": "cards"
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "variables": {
+    "careerStartYear": 2024
+  },
+  "sections": [
+    "hero",
+    "metrics",
+    "experience",
+    "achievements",
+    "skills",
+    "projects",
+    "certifications",
+    "contact"
+  ],
+  "hero": {
+    "name": "Fadal Razin",
+    "title": "IT Infrastructure & Support Professional",
+    "tagline": "{{yearsSince:careerStartYear}}+ years supporting network infrastructure, Windows Server, Microsoft 365, identity systems, and hospitality technology in fast-paced, guest-facing environments.",
+    "avatar": "/profile.jpg",
+    "cta": {
+      "primary": {
+        "text": "See My Impact",
+        "target": "#achievements"
+      },
+      "secondary": {
+        "text": "Get in Touch",
+        "target": "#contact"
+      }
+    },
+    "statusBadge": {
+      "text": "IT Support & Infrastructure",
+      "active": true
+    },
+    "valuePills": [
+      {
+        "label": "{{yearsSince:careerStartYear}}+",
+        "sublabel": "Years Experience",
+        "highlight": true
+      },
+      {
+        "label": "IT Infrastructure",
+        "sublabel": "& Networking",
+        "highlight": false
+      },
+      {
+        "label": "Microsoft 365",
+        "sublabel": "& Entra ID",
+        "highlight": false
+      }
+    ],
+    "quickStats": [
+      {
+        "value": "{{yearsSince:careerStartYear}}",
+        "suffix": "+",
+        "label": "Years Experience"
+      },
+      {
+        "value": 30,
+        "suffix": "+",
+        "label": "Users Managed"
+      }
+    ],
+    "badge": {
+      "value": "FR",
+      "title": "Packet Guardian",
+      "subtitle": "Diagnosing drops, optimizing the flow"
+    }
+  },
+  "metrics": [
+    {
+      "label": "Downtime Reduction",
+      "value": 80,
+      "suffix": "%",
+      "description": "Reduction in unplanned downtime through IT policies, infrastructure audits, and proactive operational controls.",
+      "max": 100,
+      "backContent": {
+        "title": "IT Operations & Downtime Reduction",
+        "category": "Operations",
+        "impact": "80% reduction in unplanned downtime",
+        "stats": [
+          {
+            "label": "Downtime Reduction",
+            "value": "80%"
+          },
+          {
+            "label": "Response",
+            "value": "Proactive"
+          }
+        ],
+        "details": [
+          "Developed and enforced IT policies, compliance standards, and infrastructure audit frameworks.",
+          "Provided proactive troubleshooting and second-line support across all hotel departments."
+        ]
+      }
+    },
+    {
+      "label": "Staff Trained",
+      "value": 40,
+      "suffix": "+",
+      "description": "IT onboarding and systems training delivered to pre-opening hotel staff across PMS, POS, and general systems.",
+      "max": 50,
+      "backContent": {
+        "title": "IT Onboarding & Systems Training",
+        "category": "Training",
+        "impact": "40+ pre-opening staff trained across PMS, POS, and general systems",
+        "stats": [
+          {
+            "label": "Staff Trained",
+            "value": "40+"
+          },
+          {
+            "label": "Systems Covered",
+            "value": "PMS, POS"
+          }
+        ],
+        "details": [
+          "Delivered IT onboarding and systems training to pre-opening hotel staff across departments.",
+          "Coordinated IT budget planning and vendor procurement to support training rollout and go-live readiness."
+        ]
+      }
+    },
+    {
+      "label": "Users Managed",
+      "value": 30,
+      "suffix": "+",
+      "description": "Active Directory and Microsoft Entra ID accounts provisioned and managed end-to-end.",
+      "max": 40,
+      "backContent": {
+        "title": "Infrastructure & Identity Administration",
+        "category": "Systems",
+        "impact": "30+ accounts provisioned and managed across identity and productivity systems",
+        "stats": [
+          {
+            "label": "Users Managed",
+            "value": "30+"
+          },
+          {
+            "label": "Platforms",
+            "value": "3"
+          }
+        ],
+        "details": [
+          "Managed 30+ user accounts across Active Directory and Microsoft Entra ID, including provisioning and lifecycle management.",
+          "Administered the Microsoft 365 tenant — Exchange Online, SharePoint, and Microsoft Defender."
+        ]
+      }
+    },
+    {
+      "label": "Rooms Supported",
+      "value": 180,
+      "suffix": "",
+      "description": "IPTV infrastructure and guest-facing content supported hotel-wide via IPMAGIX.",
+      "max": 200,
+      "backContent": {
+        "title": "Hotel Technology Operations",
+        "category": "Hospitality",
+        "impact": "Guest-facing and back-of-house systems supported across 180 rooms",
+        "stats": [
+          {
+            "label": "Rooms Supported",
+            "value": "180"
+          },
+          {
+            "label": "Systems Managed",
+            "value": "6+"
+          }
+        ],
+        "details": [
+          "Managed IPTV middleware via IPMAGIX, configuring channel lineups and guest-facing content across 180 rooms.",
+          "Administered OPERA PMS Cloud, Oracle MICROS Simphony POS, and VingCard access control systems."
+        ]
+      }
+    }
+  ],
+  "metricsSection": {
+    "eyebrow": "IT Operations Impact",
+    "headline": "Impact by the Numbers",
+    "description": "Measurable results from hands-on IT operations, infrastructure management, and hospitality technology support."
+  },
+  "experience": [
+    {
+      "company": "First Grand Hotel",
+      "role": "IT Support Specialist",
+      "period": "July 2025 - Present",
+      "location": "Dammam, Saudi Arabia",
+      "highlights": [
+        "Oversee end-to-end IT operations for a 4-star hotel, ensuring system availability, business continuity, and seamless technology across every guest touchpoint.",
+        "Developed and enforced IT policies, compliance standards, and infrastructure audit frameworks that reduced unplanned downtime by 80%.",
+        "Administer Windows Server across physical, VMware, and cloud environments alongside Active Directory and Microsoft Entra ID, managing 30+ user accounts end-to-end.",
+        "Manage the Microsoft 365 tenant — Exchange Online, SharePoint, and Microsoft Defender — maintaining security baselines and compliance policies.",
+        "Manage and troubleshoot the hotel's network infrastructure: FortiGate firewalls, HPE Aruba and H3C switching, and wireless access points across 2 floors.",
+        "Diagnosed and resolved a network-wide DHCP failure caused by an unplanned power outage, restoring guest and staff connectivity with minimal downtime.",
+        "Administer hospitality systems including OPERA PMS Cloud, Oracle MICROS Simphony POS, Avaya IP Telephony, VingCard access control, and LG Pro:Centric IPTV across 180 rooms.",
+        "Delivered IT onboarding and systems training to 40+ pre-opening staff, and provide second-line support for desktops, POS terminals, printers, CCTV, and A/V systems.",
+        "Implement IT security standards and manage backup and recovery via Arctera Backup Exec; coordinate with ISPs and vendors on procurement, upgrades, and SLAs."
+      ],
+      "techStack": [
+        "Windows Server",
+        "VMware",
+        "Active Directory",
+        "Microsoft Entra ID",
+        "Microsoft 365",
+        "Exchange Online",
+        "SharePoint",
+        "Microsoft Defender",
+        "FortiGate",
+        "HPE Aruba",
+        "H3C",
+        "OPERA PMS Cloud",
+        "Oracle MICROS Simphony POS",
+        "Avaya IP Telephony",
+        "VingCard",
+        "IPMAGIX",
+        "Arctera Backup Exec"
+      ]
+    },
+    {
+      "company": "GlobalLogic Technologies Pvt. Ltd.",
+      "role": "IT Assistant",
+      "period": "March 2024 - March 2025",
+      "location": "Chennai, India",
+      "highlights": [
+        "Delivered first-line technical support to 30+ employees, diagnosing and resolving hardware, software, and network issues.",
+        "Installed, configured, and maintained desktops, laptops, printers, and peripherals across 4 departments.",
+        "Managed user accounts, email configuration, and access permissions via Active Directory and Google Workspace Admin Console.",
+        "Created and configured new domains, connected them to Google Workspace, and managed email setup and migration for 30+ users.",
+        "Performed network troubleshooting including IP configuration checks and switch and patch panel diagnostics.",
+        "Maintained IT asset records and inventory logs, and set up 4 meeting rooms with video conferencing and AV equipment."
+      ],
+      "techStack": [
+        "Active Directory",
+        "Google Workspace",
+        "Windows",
+        "Networking",
+        "Data Quality Assurance",
+        "Video Conferencing"
+      ]
+    }
+  ],
+  "experienceSection": {
+    "eyebrow": "Professional Journey",
+    "headline": "Career Experience",
+    "description": "Hands-on IT operations across hospitality and enterprise environments, from first-line support to full infrastructure ownership."
+  },
+  "achievements": [
+    {
+      "id": "it-operations",
+      "title": "IT Operations & Downtime Reduction",
+      "category": "Operations",
+      "summary": "Strengthened hotel IT operations through structured policies, infrastructure audits, and proactive support.",
+      "impact": "80% reduction in unplanned downtime",
+      "details": [
+        "Developed and enforced IT policies, compliance standards, and infrastructure audit frameworks.",
+        "Coordinated IT budget planning and vendor procurement for upgrades and project delivery.",
+        "Delivered IT onboarding and systems training to 40+ pre-opening staff across PMS, POS, and general systems.",
+        "Provided proactive troubleshooting and second-line support across all hotel departments."
+      ],
+      "metrics": [
+        {
+          "label": "Downtime Reduction",
+          "value": "80%"
+        },
+        {
+          "label": "Staff Trained",
+          "value": "40+"
+        }
+      ]
+    },
+    {
+      "id": "hospitality",
+      "title": "Hotel Technology Operations",
+      "category": "Hospitality",
+      "summary": "Supported critical technology systems across hotel operations, guest services, and internal departments.",
+      "impact": "Guest-facing and back-of-house systems supported across 180 rooms",
+      "details": [
+        "Administered and supported OPERA PMS Cloud, Oracle MICROS Simphony POS, Avaya IP Telephony, and Tiger TMS call accounting.",
+        "Configured and troubleshot VingCard (Assa Abloy) door lock systems via Visionline and Lockservice 3G, maintaining property-wide access control integrity.",
+        "Managed IPTV middleware via IPMAGIX, configuring channel lineups and guest-facing content across 180 rooms."
+      ],
+      "metrics": [
+        {
+          "label": "Rooms Supported",
+          "value": "180"
+        },
+        {
+          "label": "Systems Managed",
+          "value": "6+"
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "title": "Infrastructure & Identity Administration",
+      "category": "Systems",
+      "summary": "Managed Windows Server, Active Directory, Entra ID, and Microsoft 365 environments supporting hotel operations.",
+      "impact": "30+ accounts provisioned and managed across identity and productivity systems",
+      "details": [
+        "Administered Windows Server across physical, VMware, and cloud environments & M365 tenant.",
+        "Managed 30+ user accounts across AD and Entra ID, including provisioning, and access control.",
+        "Administered the Microsoft 365 tenant — Exchange Online, SharePoint, and Microsoft Defender — maintaining security baselines and compliance."
+      ],
+      "metrics": [
+        {
+          "label": "Users Managed",
+          "value": "30+"
+        },
+        {
+          "label": "Platforms",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": "network-incident",
+      "title": "Network Incident Response",
+      "category": "Network",
+      "summary": "Diagnosed and restored network connectivity during an unplanned power outage that caused a network-wide DHCP failure.",
+      "impact": "Restored guest and staff connectivity with minimal downtime",
+      "details": [
+        "Isolated the fault following an unplanned power outage that disrupted DHCP services hotel-wide.",
+        "Coordinated recovery across FortiGate firewalls, HPE Aruba and H3C switching, and wireless access points.",
+        "Restored internet and Wi-Fi access for guests and staff, minimizing operational impact."
+      ],
+      "metrics": [
+        {
+          "label": "Response",
+          "value": "Same-day"
+        },
+        {
+          "label": "Impact",
+          "value": "Minimal downtime"
+        }
+      ]
+    }
+  ],
+  "achievementsSection": {
+    "eyebrow": "IT Impact",
+    "headline": "Professional Impact",
+    "description": "Measurable outcomes across IT operations, hospitality technology, systems administration, and network support."
+  },
+  "skillCategories": [
+    {
+      "name": "Infrastructure & Systems",
+      "skills": [
+        {
+          "name": "Windows Server 2016/2019/2022",
+          "context": "Windows Server administration, system configuration, user services, and server troubleshooting."
+        },
+        {
+          "name": "VMware vSphere",
+          "context": "Virtual machine management, host monitoring, resource allocation, and virtualization support."
+        },
+        {
+          "name": "Active Directory",
+          "context": "User account provisioning, lifecycle management, access control, and Group Policy administration."
+        },
+        {
+          "name": "Group Policy",
+          "context": "Policy configuration for user access, security settings, and domain-wide system management."
+        },
+        {
+          "name": "Microsoft Office 365 Administration",
+          "context": "Microsoft 365 user administration, licensing, email configuration, and access management."
+        }
+      ]
+    },
+    {
+      "name": "Networking",
+      "skills": [
+        {
+          "name": "HPE Aruba",
+          "context": "Network switch and access point configuration, monitoring, VLANs, and connectivity troubleshooting."
+        },
+        {
+          "name": "H3C Switches",
+          "context": "Switch configuration, port management, VLANs, and network connectivity troubleshooting."
+        },
+        {
+          "name": "Fortinet FortiGate",
+          "context": "Firewall administration, network security, traffic policies, and connectivity troubleshooting."
+        },
+        {
+          "name": "TCP/IP",
+          "context": "TCP/IP configuration, IP addressing, connectivity troubleshooting, and network communication fundamentals."
+        },
+        {
+          "name": "DNS",
+          "context": "DNS configuration and troubleshooting for domain resolution and network services."
+        },
+        {
+          "name": "DHCP",
+          "context": "DHCP configuration and troubleshooting for automated IP address assignment and network parameters."
+        },
+        {
+          "name": "VLANs",
+          "context": "VLAN configuration and troubleshooting for network segmentation and traffic isolation."
+        },
+        {
+          "name": "Wi-Fi",
+          "context": "Wireless network support, access point configuration, connectivity, and coverage troubleshooting."
+        }
+      ]
+    },
+    {
+      "name": "Hospitality Technology",
+      "skills": [
+        {
+          "name": "OPERA PMS Cloud",
+          "context": "Hotel PMS user administration, access support, configuration, and application troubleshooting."
+        },
+        {
+          "name": "Oracle MICROS Simphony POS",
+          "context": "POS user support, workstation connectivity, configuration, and operational troubleshooting."
+        },
+        {
+          "name": "Avaya IP Telephony",
+          "context": "IP phone administration, extension configuration, connectivity, and telephony troubleshooting."
+        },
+        {
+          "name": "VingCard Visionline",
+          "context": "Electronic door-lock administration, RFID encoder support, and guest-room access troubleshooting."
+        },
+        {
+          "name": "Lockservice 3G",
+          "context": "Electronic lock system support, key-card management, and guest-room lock troubleshooting."
+        },
+        {
+          "name": "LG Pro:Centric IPTV",
+          "context": "Hotel IPTV support, TV configuration, channel services, and guest-room connectivity troubleshooting."
+        },
+        {
+          "name": "IPMAGIX",
+          "context": "IPTV middleware support, channel configuration, content services, and hotel TV troubleshooting."
+        },
+        {
+          "name": "Tiger TMS",
+          "context": "TMS system support, device connectivity, configuration, and operational troubleshooting."
+        }
+      ]
+    },
+    {
+      "name": "Security & Backup",
+      "skills": [
+        {
+          "name": "Microsoft 365 Defender",
+          "context": "Security monitoring, threat investigation, endpoint protection, and Microsoft 365 security support."
+        },
+        {
+          "name": "IT Security Policies",
+          "context": "Implementation of security procedures, access controls, account practices, and IT security standards."
+        },
+        {
+          "name": "Backup & Recovery",
+          "context": "Backup monitoring, data restoration, recovery procedures, and business continuity support."
+        },
+        {
+          "name": "Arctera Backup Exec",
+          "context": "Backup job configuration, monitoring, recovery operations, and backup troubleshooting."
+        },
+        {
+          "name": "Access Control",
+          "context": "User permissions, authentication, system access, and role-based access management."
+        }
+      ]
+    },
+    {
+      "name": "End-User Support",
+      "skills": [
+        {
+          "name": "Desktop Support",
+          "context": "Troubleshooting Windows systems, applications, peripherals, connectivity, and user issues."
+        },
+        {
+          "name": "Laptop Support",
+          "context": "Laptop configuration, hardware troubleshooting, software installation, and user support."
+        },
+        {
+          "name": "POS Support",
+          "context": "POS workstation, application, peripheral, and network connectivity troubleshooting."
+        },
+        {
+          "name": "Printer Support",
+          "context": "Printer installation, driver configuration, connectivity, and printing issue resolution."
+        },
+        {
+          "name": "CCTV",
+          "context": "CCTV system support, camera connectivity, recording systems, and basic troubleshooting."
+        },
+        {
+          "name": "A/V Systems",
+          "context": "Audio-visual equipment setup, connectivity, configuration, and event support."
+        },
+        {
+          "name": "Handheld Devices",
+          "context": "Configuration, connectivity, application support, and troubleshooting for hotel handheld devices."
+        },
+        {
+          "name": "Video Conferencing",
+          "context": "Meeting-room setup, audio/video configuration, connectivity, and conferencing support."
+        }
+      ]
+    },
+    {
+      "name": "Cloud & Productivity",
+      "skills": [
+        {
+          "name": "Microsoft 365",
+          "context": "Cloud productivity platform administration, user support, applications, and collaboration services."
+        },
+        {
+          "name": "Microsoft Entra ID",
+          "context": "Cloud identity administration, user access, authentication, and application permissions."
+        },
+        {
+          "name": "Google Workspace",
+          "context": "User administration, email services, collaboration tools, and Workspace account support."
+        },
+        {
+          "name": "Exchange Online",
+          "context": "Cloud email administration, mailboxes, permissions, and troubleshooting."
+        },
+        {
+          "name": "SharePoint",
+          "context": "Document management, collaboration, permissions, and SharePoint site support."
+        },
+        {
+          "name": "Domain & DNS Management",
+          "context": "Domain configuration, DNS records, CNAMEs, redirects, and email-related DNS management."
+        }
+      ]
+    }
+  ],
+  "skillsSection": {
+    "eyebrow": "Technical Skills",
+    "headline": "IT Skills & Technologies",
+    "description": "Hands-on experience across infrastructure, networking, systems administration, Microsoft environments, hospitality technology, and end-user support.",
+    "summary": [
+      {
+        "title": "Infrastructure",
+        "subtitle": "Systems & Servers"
+      },
+      {
+        "title": "Networking",
+        "subtitle": "Connectivity & Security"
+      },
+      {
+        "title": "Hospitality",
+        "subtitle": "Mission-Critical Systems"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "hotel-it-infrastructure",
+      "title": "Hotel IT Infrastructure",
+      "description": "End-to-end support and administration of hotel IT infrastructure spanning servers, networking, wireless connectivity, endpoints, security, and hospitality systems.",
+      "tags": [
+        "Windows Server",
+        "VMware",
+        "HPE Aruba",
+        "FortiGate",
+        "Microsoft 365",
+        "Active Directory"
+      ],
+      "featured": true
+    },
+    {
+      "id": "hospitality-systems-integration",
+      "title": "Hospitality Systems Integration & Support",
+      "description": "Hands-on administration and support across OPERA PMS Cloud, Oracle MICROS Simphony POS, Avaya IP Telephony, VingCard access control, IPTV, and call-accounting systems.",
+      "tags": [
+        "OPERA Cloud",
+        "MICROS Simphony POS",
+        "Avaya",
+        "VingCard",
+        "IPTV",
+        "IPMAGIX"
+      ],
+      "featured": false
+    },
+    {
+      "id": "microsoft-identity-productivity",
+      "title": "Microsoft Identity & Productivity Administration",
+      "description": "Administration of Active Directory, Microsoft Entra ID, Microsoft 365, Exchange Online, SharePoint, and user access workflows.",
+      "tags": [
+        "Active Directory",
+        "Entra ID",
+        "Microsoft 365",
+        "Exchange Online",
+        "SharePoint"
+      ],
+      "featured": false
+    },
+    {
+      "id": "network-incident-recovery",
+      "title": "Network Incident Recovery",
+      "description": "Diagnosed and restored network connectivity following an unplanned power outage that resulted in network-wide DHCP failure.",
+      "tags": [
+        "DHCP",
+        "TCP/IP",
+        "HPE Aruba",
+        "Network Troubleshooting",
+        "Incident Response"
+      ],
+      "featured": false
+    }
+  ],
+  "projectsSection": {
+    "eyebrow": "Technical Work",
+    "headline": "Selected IT Projects",
+    "description": "Real, hands-on work from day-to-day IT operations - not demo projects."
+  },
+  "certifications": [
+    {
+      "id": "ccna-v7",
+      "title": "CCNAv7: Introduction to Networks",
+      "issuer": "Cisco",
+      "status": "completed",
+      "description": "Foundational networking knowledge covering IP addressing, subnetting, routing, switching, and Cisco IOS, with concepts applied to live network environments."
+    },
+    {
+      "id": "isc2-cc",
+      "title": "ISC2 CC - Certified in Cybersecurity",
+      "issuer": "ISC2",
+      "status": "in-progress",
+      "description": "Currently pursuing this certification, covering core security principles including access control, network security, and incident response."
+    }
+  ],
+  "education": [
+    {
+      "id": "be-computer-science",
+      "degree": "B.E. Computer Science",
+      "institution": "Mohamed Sathak AJ College of Engineering, Chennai, India",
+      "period": "2019 - 2023"
+    }
+  ],
+  "credentialsSection": {
+    "eyebrow": "Credentials",
+    "headline": "Certifications & Education",
+    "description": "Formal training and coursework supporting hands-on IT operations experience."
+  },
+  "clients": {
+    "title": "Technology Environment",
+    "display": "list",
+    "items": [
+      {
+        "name": "Microsoft 365",
+        "highlight": true
+      },
+      {
+        "name": "Fortinet",
+        "highlight": false
+      },
+      {
+        "name": "HPE Aruba",
+        "highlight": false
+      },
+      {
+        "name": "OPERA PMS",
+        "highlight": false
+      },
+      {
+        "name": "Avaya",
+        "highlight": false
+      },
+      {
+        "name": "Assa Abloy",
+        "highlight": false
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in Touch",
+    "headline": "Let's Connect",
+    "description": "I'm always interested in connecting with IT professionals, technology teams, and organizations working on reliable infrastructure and business-critical systems.",
+    "ctaText": "Reach out about IT infrastructure, support roles, or a technical conversation.",
+    "location": "Saudi Arabia",
+    "preferredMethod": "email",
+    "showSocial": true
+  },
+  "footer": {
+    "showYear": true,
+    "showRights": true
+  },
+  "jobBoardScoring": {
+    "defaultSkillWeight": 5,
+    "bonuses": {
+      "remotePosition": 10,
+      "regionFriendly": 15,
+      "seniorityMatch": 10,
+      "domainRelevance": 20
+    },
+    "relevantDomains": [
+      "it support",
+      "information technology",
+      "it infrastructure",
+      "helpdesk",
+      "help desk",
+      "network administration",
+      "systems administration",
+      "hospitality",
+      "hotel technology",
+      "cloud administration",
+      "microsoft 365",
+      "sysadmin"
+    ],
+    "seniorityKeywords": [
+      "it support",
+      "systems administrator",
+      "network administrator",
+      "infrastructure",
+      "help desk",
+      "technician",
+      "it specialist",
+      "it coordinator"
+    ]
+  }
+}
