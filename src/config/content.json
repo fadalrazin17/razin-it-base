@@ -16,7 +16,7 @@
     "name": "Fadal Razin",
     "title": "IT Infrastructure & Support Professional",
     "tagline": "{{yearsSince:careerStartYear}}+ years supporting network infrastructure, Windows Server, Microsoft 365, identity systems, and hospitality technology in fast-paced, guest-facing environments.",
-    "avatar": "/profile.jpg",
+    "avatar": "./profile.jpg",
     "cta": {
       "primary": {
         "text": "See My Impact",

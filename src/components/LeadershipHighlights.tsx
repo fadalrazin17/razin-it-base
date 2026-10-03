@@ -154,7 +154,7 @@ export function LeadershipHighlights() {
                 isFlipped={isFlipped}
                 onFlip={() => handleFlip(index)}
                 className={cn(
-                  'h-[200px] md:h-[220px] cursor-pointer',
+                  'h-[280px] cursor-pointer',
                   isVisible && 'animate-fade-in-up'
                 )}
                 style={{ animationDelay: `${index * 100}ms` }}
@@ -215,7 +215,7 @@ export function LeadershipHighlights() {
                 }
                 back={
                   <Card className="group relative overflow-hidden border-border border-accent h-full bg-card">
-                    <CardContent className="p-4 md:p-5 h-full flex flex-col">
+                    <CardContent className="p-4 md:p-5 h-full flex flex-col overflow-y-auto">
                       {/* Category Badge */}
                       <Badge
                         className={cn(

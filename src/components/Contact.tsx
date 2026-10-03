@@ -53,15 +53,15 @@ export function Contact() {
                   onClick={() => copyToClipboard(contact.email, 'email')}
                   className="w-full group flex items-center justify-between p-4 rounded-xl bg-slate-50 dark:bg-navy-800 hover:bg-navy-50 dark:hover:bg-navy-700 transition-colors"
                 >
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-xl bg-white dark:bg-navy-900 shadow-sm dark:shadow-none flex items-center justify-center">
+                  <div className="flex items-center gap-4 min-w-0 flex-1">
+                    <div className="w-12 h-12 rounded-xl bg-white dark:bg-navy-900 shadow-sm dark:shadow-none flex items-center justify-center shrink-0">
                       <Mail className="w-5 h-5 text-navy-600 dark:text-slate-400" />
                     </div>
-                    <div className="text-left">
+                    <div className="text-left min-w-0">
                       <p className="text-xs font-medium text-slate-500 dark:text-slate-500 uppercase tracking-wider">
                         Email
                       </p>
-                      <p className="text-base font-medium text-navy-900 dark:text-slate-100">
+                      <p className="text-base font-medium text-navy-900 dark:text-slate-100 break-all">
                         {contact.email}
                       </p>
                     </div>
@@ -82,15 +82,15 @@ export function Contact() {
                   rel="noopener noreferrer"
                   className="w-full group flex items-center justify-between p-4 rounded-xl bg-slate-50 dark:bg-navy-800 hover:bg-navy-50 dark:hover:bg-navy-700 transition-colors"
                 >
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-xl bg-white dark:bg-navy-900 shadow-sm dark:shadow-none flex items-center justify-center">
+                  <div className="flex items-center gap-4 min-w-0 flex-1">
+                    <div className="w-12 h-12 rounded-xl bg-white dark:bg-navy-900 shadow-sm dark:shadow-none flex items-center justify-center shrink-0">
                       <Linkedin className="w-5 h-5 text-navy-600 dark:text-slate-400" />
                     </div>
-                    <div className="text-left">
+                    <div className="text-left min-w-0">
                       <p className="text-xs font-medium text-slate-500 dark:text-slate-500 uppercase tracking-wider">
                         LinkedIn
                       </p>
-                      <p className="text-base font-medium text-navy-900 dark:text-slate-100">
+                      <p className="text-base font-medium text-navy-900 dark:text-slate-100 break-all">
                         {contact.linkedin}
                       </p>
                     </div>
