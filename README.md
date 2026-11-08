@@ -4,7 +4,7 @@ Personal portfolio site for **Fadal Razin**, an IT Infrastructure & Support
 professional based in Saudi Arabia. Built with React, TypeScript, Vite, and
 Tailwind CSS.
 
-🔗 **Live site:** _add your GitHub Pages URL here once deployed_
+🔗 **Live site:** [_add your GitHub Pages URL here once deployed_](https://fadalrazin17.github.io/razin-it-base/)
 
 ## Running locally
 
